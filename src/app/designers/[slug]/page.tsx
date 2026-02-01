@@ -1,0 +1,39 @@
+import { notFound } from "next/navigation";
+import { getTitanBySlug, titansData, slugify } from "@/lib/data";
+import { TitanProfile } from "@/components/TitanProfile";
+import { Metadata } from "next";
+
+interface Props {
+  params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return titansData.designers.map((titan) => ({
+    slug: slugify(titan.name),
+  }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const titan = getTitanBySlug("designers", slug);
+  
+  if (!titan) {
+    return { title: "Not Found" };
+  }
+
+  return {
+    title: `${titan.name} | TITANS`,
+    description: titan.bio,
+  };
+}
+
+export default async function DesignerPage({ params }: Props) {
+  const { slug } = await params;
+  const titan = getTitanBySlug("designers", slug);
+
+  if (!titan) {
+    notFound();
+  }
+
+  return <TitanProfile titan={titan} category="designers" />;
+}

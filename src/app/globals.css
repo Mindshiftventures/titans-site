@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #F5F5F5;
+  color: #1A1A1A;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+::selection {
+  background: #FF5722;
+  color: white;
+}
+
+@layer components {
+  .industrial-border {
+    @apply border-2 border-foreground;
+  }
+  
+  .label-style {
+    @apply uppercase tracking-wider text-xs font-semibold;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-200 hover:-translate-y-1 hover:shadow-[4px_4px_0_#1A1A1A];
+  }
+}
