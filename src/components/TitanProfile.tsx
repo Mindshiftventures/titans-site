@@ -17,14 +17,14 @@ export function TitanProfile({ titan, category }: TitanProfileProps) {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Breadcrumb */}
-      <nav className="mb-8 flex items-center gap-2 label-style text-foreground/60">
-        <Link href="/" className="hover:text-accent transition-colors">HOME</Link>
+      <nav className="mb-8 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm sm:text-xs label-style text-foreground/60">
+        <Link href="/" className="min-h-[44px] flex items-center py-2 hover:text-accent transition-colors">HOME</Link>
         <span>/</span>
-        <Link href={`/${category}`} className="hover:text-accent transition-colors">
+        <Link href={`/${category}`} className="min-h-[44px] flex items-center py-2 hover:text-accent transition-colors">
           {info.title}
         </Link>
         <span>/</span>
-        <span className="text-foreground">{titan.name.toUpperCase()}</span>
+        <span className="text-foreground py-2">{titan.name.toUpperCase()}</span>
       </nav>
 
       {/* Hero Section */}
@@ -130,7 +130,7 @@ export function TitanProfile({ titan, category }: TitanProfileProps) {
       <nav className="pt-8 border-t-2 border-foreground">
         <Link 
           href={`/${category}`}
-          className="inline-flex items-center gap-2 label-style text-foreground hover:text-accent transition-colors"
+          className="min-h-[44px] inline-flex items-center gap-2 py-3 label-style text-foreground hover:text-accent transition-colors"
         >
           <span>←</span>
           BACK TO ALL {info.title}

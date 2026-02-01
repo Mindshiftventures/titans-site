@@ -1,34 +1,42 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import { MobileNav } from "@/components/MobileNav";
 
 export const metadata: Metadata = {
   title: "TITANS | Greatest Minds in Design, Development, Research & Writing",
   description: "Learn from the masters. Explore the philosophies, quotes, and lessons from the greatest minds in Design, Development, Research, and Writing.",
 };
 
+const navLinks = [
+  { href: "/designers", label: "DESIGNERS" },
+  { href: "/developers", label: "DEVELOPERS" },
+  { href: "/researchers", label: "RESEARCHERS" },
+  { href: "/writers", label: "WRITERS" },
+];
+
 function Navigation() {
   return (
     <nav className="industrial-border bg-foreground text-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-xl font-bold tracking-widest hover:text-accent transition-colors">
+          <Link href="/" className="min-h-[44px] flex items-center text-xl font-bold tracking-widest hover:text-accent transition-colors">
             TITANS
           </Link>
-          <div className="flex gap-6 text-sm label-style">
-            <Link href="/designers" className="hover:text-accent transition-colors">
-              DESIGNERS
-            </Link>
-            <Link href="/developers" className="hover:text-accent transition-colors">
-              DEVELOPERS
-            </Link>
-            <Link href="/researchers" className="hover:text-accent transition-colors">
-              RESEARCHERS
-            </Link>
-            <Link href="/writers" className="hover:text-accent transition-colors">
-              WRITERS
-            </Link>
+          {/* Desktop navigation */}
+          <div className="hidden md:flex gap-6 text-sm label-style">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="min-h-[44px] flex items-center hover:text-accent transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
+          {/* Mobile hamburger menu */}
+          <MobileNav links={navLinks} />
         </div>
       </div>
     </nav>
