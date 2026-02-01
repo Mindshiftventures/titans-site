@@ -56,7 +56,7 @@ export const titansData: TitansData = {
     {
       "name": "Dieter Rams",
       "bio": "German industrial designer who served as head of design at Braun for over 30 years, revolutionizing consumer product design and directly inspiring Apple's aesthetic philosophy.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Dieter_Rams_2013.jpg/440px-Dieter_Rams_2013.jpg",
+      "imageUrl": "/images/titans/dieter-rams.jpg",
       "philosophy": "Less, but better (Weniger, aber besser). Design should be invisible, serving the user without calling attention to itself. Good design is environmentally responsible and built to last. Design is not about decoration but about making products honest, useful, and understandable.",
       "quotes": [
         "Less, but better.",
@@ -88,7 +88,7 @@ export const titansData: TitansData = {
     {
       "name": "Jony Ive",
       "bio": "British-American industrial designer who served as Chief Design Officer at Apple, leading the design of the iMac, iPod, iPhone, iPad, and Apple Watch—products that redefined entire industries.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Jony_Ive_%28WWDC_2012%29.jpg/440px-Jony_Ive_%28WWDC_2012%29.jpg",
+      "imageUrl": "/images/titans/jony-ive.jpg",
       "philosophy": "True simplicity is derived from so much more than just the absence of clutter and ornamentation—it's about bringing order to complexity. Design is about caring deeply about the user experience and making the solution seem so inevitable that you wonder why it wasn't always that way.",
       "quotes": [
         "Simplicity is not the absence of clutter, that's a consequence of simplicity. Simplicity is somehow essentially describing the purpose and place of an object and product.",
@@ -116,7 +116,7 @@ export const titansData: TitansData = {
     {
       "name": "Massimo Vignelli",
       "bio": "Italian designer who shaped American visual culture through his work on the NYC subway signage system, American Airlines logo, and the timeless Unigrid system for National Parks brochures.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Massimo_Vignelli_2.jpg/440px-Massimo_Vignelli_2.jpg",
+      "imageUrl": "/images/titans/massimo-vignelli.jpg",
       "philosophy": "If you can design one thing, you can design everything. Design is a discipline that transcends any specific medium. Intellectual elegance, visual power, and timelessness are the foundations of all good design. Limit your typefaces—master a few rather than dabbling in thousands.",
       "quotes": [
         "If you can design one thing, you can design everything.",
@@ -148,7 +148,7 @@ export const titansData: TitansData = {
     {
       "name": "Paula Scher",
       "bio": "American graphic designer and partner at Pentagram, known for bold typographic work including identities for The Public Theater, Citibank, and Microsoft Windows 8. First woman to be a principal at Pentagram.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Paula_Scher.jpg/440px-Paula_Scher.jpg",
+      "imageUrl": "/images/titans/paula-scher.jpg",
       "philosophy": "Design is play—engaging in childlike activity and gambling simultaneously. You have to misbehave to make breakthroughs. Graphic design is a language with vocabulary, rules, and structure. Growth comes through mistakes, not through playing it safe.",
       "quotes": [
         "Words have meaning, type has spirit.",
@@ -182,7 +182,7 @@ export const titansData: TitansData = {
     {
       "name": "Linus Torvalds",
       "bio": "Finnish-American software engineer who created Linux and Git—two of the most influential pieces of software in computing history, powering everything from Android phones to cloud servers to version control worldwide.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/440px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg",
+      "imageUrl": "/images/titans/linus-torvalds.jpg",
       "philosophy": "Talk is cheap. Show me the code. Programming should be fun, not just about money or recognition. Good programmers worry about data structures and their relationships, not just code. Start small, solve immediate needs, and let projects grow organically rather than over-designing from the start.",
       "quotes": [
         "Talk is cheap. Show me the code.",
@@ -214,7 +214,7 @@ export const titansData: TitansData = {
     {
       "name": "John Carmack",
       "bio": "American programmer and co-founder of id Software, created revolutionary 3D game engines for Wolfenstein 3D, Doom, and Quake. Later served as CTO of Oculus VR. Known for extraordinary technical depth and pushing hardware limits.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/John_Carmack_E3_2006.jpg/440px-John_Carmack_E3_2006.jpg",
+      "imageUrl": "/images/titans/john-carmack.jpg",
       "philosophy": "Focused, hard work is the real key to success. If you aren't sure which way to do something, do it both ways and see which works better. Low-level programming is good for the programmer's soul. Share code freely—it costs little but benefits many.",
       "quotes": [
         "Focused, hard work is the real key to success. Keep your eyes on the goal, and just keep taking the next step towards completing it.",
@@ -246,7 +246,7 @@ export const titansData: TitansData = {
     {
       "name": "David Heinemeier Hansson (DHH)",
       "bio": "Danish programmer who created Ruby on Rails and co-founded Basecamp. Challenged Silicon Valley orthodoxy on venture capital, hustle culture, and remote work. Also a Le Mans class-winning race car driver.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/DHH_TechCrunch.jpg/440px-DHH_TechCrunch.jpg",
+      "imageUrl": "/images/titans/david-heinemeier-hansson-dhh.jpg",
       "philosophy": "Convention over configuration. Work smarter, not longer—productivity isn't about hours in an office. Build products you'd want to use yourself. Challenge industry norms and be willing to be the contrarian. Constraints fuel creativity.",
       "quotes": [
         "You're better off with a kick-ass half than a half-assed whole.",
@@ -282,7 +282,7 @@ export const titansData: TitansData = {
     {
       "name": "Fabrice Bellard",
       "bio": "French programmer renowned for creating FFmpeg (ubiquitous media processing), QEMU (processor emulator), and TinyCC. Set π computation world records. Possibly the most prolific individual programmer alive.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Fabrice_Bellard_2014.jpg/440px-Fabrice_Bellard_2014.jpg",
+      "imageUrl": "/images/titans/fabrice-bellard.jpg",
       "philosophy": "Individual programmers can still create world-changing software. Deep understanding of low-level systems enables extraordinary optimization. Write complete, useful tools rather than frameworks. Quality over quantity in everything.",
       "quotes": [
         "I believe that writing software should be fun.",
@@ -315,7 +315,7 @@ export const titansData: TitansData = {
     {
       "name": "Richard Feynman",
       "bio": "American theoretical physicist who won the Nobel Prize for quantum electrodynamics, worked on the Manhattan Project, and became beloved for making physics accessible. Known for his curiosity, playfulness, and ability to explain complex ideas simply.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/440px-Richard_Feynman_Nobel.jpg",
+      "imageUrl": "/images/titans/richard-feynman.jpg",
       "philosophy": "The first principle is that you must not fool yourself—and you are the easiest person to fool. Fall in love with finding things out. Know the difference between knowing the name of something and actually knowing something. Doubt is not a weakness but a feature of honest inquiry.",
       "quotes": [
         "The first principle is that you must not fool yourself and you are the easiest person to fool.",
@@ -351,7 +351,7 @@ export const titansData: TitansData = {
     {
       "name": "Claude Shannon",
       "bio": "American mathematician and electrical engineer who founded information theory with his 1948 paper 'A Mathematical Theory of Communication.' Created the mathematical basis for digital computing and communications that powers the modern world.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ClaudeShannon_MFO3807.jpg/440px-ClaudeShannon_MFO3807.jpg",
+      "imageUrl": "/images/titans/claude-shannon.jpg",
       "philosophy": "I am more interested in the elegance of a problem than its practical applications. Simplify complex problems by cutting them down to their essentials. Play and curiosity drive better research than focused practicality. Work on multiple ideas simultaneously.",
       "quotes": [
         "Information is the resolution of uncertainty.",
@@ -383,7 +383,7 @@ export const titansData: TitansData = {
     {
       "name": "Andrej Karpathy",
       "bio": "Slovak-Canadian AI researcher who led Tesla's Autopilot team, was founding member of OpenAI, and now runs Eureka Labs. Known for exceptional ability to explain deep learning concepts and his influential educational content.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Andrej_Karpathy_portrait.jpg/440px-Andrej_Karpathy_portrait.jpg",
+      "imageUrl": "/images/titans/andrej-karpathy.jpg",
       "philosophy": "It's really important to not abstract away things. You need to have a full understanding of the whole stack. The best way to understand AI is to build it from scratch. Education needs to be rebuilt for the AI age. AGI is coming but the timeline is measured in decades, not years.",
       "quotes": [
         "It's really important to not abstract away things. You need to have a full understanding of the whole stack.",
@@ -415,7 +415,7 @@ export const titansData: TitansData = {
     {
       "name": "Demis Hassabis",
       "bio": "British AI researcher and co-founder of DeepMind. Created AlphaGo, AlphaFold (solving protein folding), and pioneered modern reinforcement learning. Former chess prodigy and video game designer turned scientific entrepreneur.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Demis_Hassabis_Royal_Society.jpg/440px-Demis_Hassabis_Royal_Society.jpg",
+      "imageUrl": "/images/titans/demis-hassabis.jpg",
       "philosophy": "Use AI as a tool for scientific discovery, not just commercial applications. Pursue fundamental breakthroughs rather than incremental improvements. Combine insights from neuroscience, gaming, and machine learning. Ambitious goals require patient, long-term research.",
       "quotes": [
         "We're on the cusp of some of the most important discoveries in the history of science.",
@@ -449,7 +449,7 @@ export const titansData: TitansData = {
     {
       "name": "Stephen King",
       "bio": "American author of horror, supernatural fiction, and suspense. One of the best-selling authors of all time with over 350 million books sold. His craft book 'On Writing' is considered essential reading for fiction writers.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Stephen_King%2C_Comicon.jpg/440px-Stephen_King%2C_Comicon.jpg",
+      "imageUrl": "/images/titans/stephen-king.jpg",
       "philosophy": "Writing isn't about making money or getting famous—it's about enriching the lives of readers and yourself. Read a lot, write a lot. There's no shortcut. Kill your darlings. The first draft is just you telling yourself the story.",
       "quotes": [
         "If you want to be a writer, you must do two things above all others: read a lot and write a lot.",
@@ -481,7 +481,7 @@ export const titansData: TitansData = {
     {
       "name": "Ernest Hemingway",
       "bio": "American novelist and journalist whose economical, understated style influenced 20th-century fiction. Nobel Prize winner known for The Old Man and the Sea, A Farewell to Arms, and For Whom the Bell Tolls.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/440px-ErnestHemingway.jpg",
+      "imageUrl": "/images/titans/ernest-hemingway.jpg",
       "philosophy": "Write one true sentence—the truest sentence you know. Omit everything unnecessary; the dignity of an iceberg is that only one-eighth is above water. Write what you know. Good writing is rewriting. Stop while you still know what comes next.",
       "quotes": [
         "All you have to do is write one true sentence. Write the truest sentence that you know.",
@@ -513,7 +513,7 @@ export const titansData: TitansData = {
     {
       "name": "Anne Lamott",
       "bio": "American novelist and non-fiction writer best known for 'Bird by Bird,' one of the most beloved books on writing ever published. Known for her humor, honesty about the writing struggle, and spiritual depth.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Anne_Lamott_at_Powell%27s_%28crop%29.jpg/440px-Anne_Lamott_at_Powell%27s_%28crop%29.jpg",
+      "imageUrl": "/images/titans/anne-lamott.jpg",
       "philosophy": "Perfectionism is the voice of the oppressor. All good writing begins with terrible first efforts. Take it bird by bird—break overwhelming tasks into small pieces. You own everything that happened to you; tell your stories.",
       "quotes": [
         "Perfectionism is the voice of the oppressor, the enemy of the people. It will keep you cramped and insane your whole life.",
@@ -545,7 +545,7 @@ export const titansData: TitansData = {
     {
       "name": "William Zinsser",
       "bio": "American writer, editor, and teacher best known for 'On Writing Well,' a guide to non-fiction writing that has sold over 1.5 million copies and influenced generations of writers and journalists.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/William_Zinsser.jpg/440px-William_Zinsser.jpg",
+      "imageUrl": "/images/titans/william-zinsser.jpg",
       "philosophy": "Simplify, simplify. The secret of good writing is to strip every sentence to its cleanest components. Writing is thinking on paper. Clutter is the disease of American writing—clear thinking becomes clear writing.",
       "quotes": [
         "Clutter is the disease of American writing. We are a society strangling in unnecessary words.",
